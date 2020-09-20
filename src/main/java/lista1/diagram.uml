@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="307.5681818181818" y="34.5">lista1.Vehicle</node>
+    <node x="238.25" y="252.0">lista1.Car</node>
+    <node x="693.5" y="46.0">lista1.CargoVehicle</node>
+    <node x="48.25" y="240.0">lista1.Payment</node>
+    <node x="336.75" y="465.0">lista1.App</node>
+    <node x="524.25" y="252.0">lista1.Bus</node>
+    <node x="0.0" y="0.0">lista1.ParkedTime</node>
+    <node x="667.25" y="229.0">lista1.Truck</node>
+    <node x="381.25" y="252.0">lista1.Vans</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lista1.Payment" target="lista1.Vehicle">
+      <point x="21.25" y="-62.0" />
+      <point x="154.5" y="189.0" />
+      <point x="317.8181818181818" y="189.0" />
+      <point x="-51.25" y="50.0" />
+    </edge>
+    <edge source="lista1.App" target="lista1.Vans">
+      <point x="2.875" y="-14.5" />
+      <point x="374.125" y="395.0" />
+      <point x="412.0" y="395.0" />
+      <point x="-30.75" y="50.0" />
+    </edge>
+    <edge source="lista1.App" target="lista1.Truck">
+      <point x="25.875" y="-14.5" />
+      <point x="397.125" y="435.0" />
+      <point x="698.0" y="435.0" />
+      <point x="-30.75" y="73.0" />
+    </edge>
+    <edge source="lista1.App" target="lista1.ParkedTime">
+      <point x="-31.625" y="-14.5" />
+      <point x="339.625" y="445.0" />
+      <point x="23.0" y="445.0" />
+      <point x="23.0" y="209.0" />
+      <point x="15.75" y="209.0" />
+      <point x="-47.25" y="84.5" />
+    </edge>
+    <edge source="lista1.Car" target="lista1.Vehicle">
+      <point x="0.0" y="-50.0" />
+      <point x="299.75" y="209.0" />
+      <point x="358.8181818181818" y="209.0" />
+      <point x="-10.25" y="50.0" />
+    </edge>
+    <edge source="lista1.App" target="lista1.Bus">
+      <point x="14.375" y="-14.5" />
+      <point x="385.625" y="415.0" />
+      <point x="555.0" y="415.0" />
+      <point x="-30.75" y="50.0" />
+    </edge>
+    <edge source="lista1.Payment" target="lista1.ParkedTime">
+      <point x="-63.75" y="-62.0" />
+      <point x="69.5" y="209.0" />
+      <point x="78.75" y="209.0" />
+      <point x="15.75" y="84.5" />
+    </edge>
+    <edge source="lista1.App" target="lista1.Car">
+      <point x="-8.625" y="-14.5" />
+      <point x="362.625" y="405.0" />
+      <point x="269.0" y="405.0" />
+      <point x="-30.75" y="50.0" />
+    </edge>
+    <edge source="lista1.Truck" target="lista1.Vehicle">
+      <point x="-30.75" y="-73.0" />
+      <point x="698.0" y="189.0" />
+      <point x="420.3181818181818" y="189.0" />
+      <point x="51.25" y="50.0" />
+    </edge>
+    <edge source="lista1.App" target="lista1.Payment">
+      <point x="-20.125" y="-14.5" />
+      <point x="351.125" y="425.0" />
+      <point x="90.75" y="425.0" />
+      <point x="-42.5" y="62.0" />
+    </edge>
+    <edge source="lista1.Truck" target="lista1.CargoVehicle">
+      <point x="30.75" y="-73.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="lista1.Bus" target="lista1.Vehicle">
+      <point x="0.0" y="-50.0" />
+      <point x="585.75" y="199.0" />
+      <point x="399.8181818181818" y="199.0" />
+      <point x="30.75" y="50.0" />
+    </edge>
+    <edge source="lista1.Vans" target="lista1.Vehicle">
+      <point x="0.0" y="-50.0" />
+      <point x="442.75" y="209.0" />
+      <point x="379.3181818181818" y="209.0" />
+      <point x="10.25" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="413.0" y="247.0" />
+  <SelectedNodes>
+    <node>lista1.Payment</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
